@@ -8,10 +8,7 @@
 # your Debian/Ubuntu box. It has been designed to be as unobtrusive and
 # universal as possible.
 
-# This is a free shell script under GNU GPL version 3.0 or above
-# Copyright (C) 2017 LinuxHelps project.
-# Feedback/comment/suggestions : https://linuxhelps.net/
-# Author Ivan Bachvarov a.k.a SlaSerX
+
 
 
 # Color schema
@@ -107,7 +104,7 @@ cat <<EOF
   If your OS/version/arch is not listed, installation ${RED}will fail${NORMAL}. More
   details about the systems supported by the script can be found here:
 
-    ${UNDERLINE}${CYAN}https://github.com/SlaSerX/stalker/blob/master/docs/os-suport${NORMAL}
+    ${UNDERLINE}${CYAN}https://en.wikipedia.org/wiki/Moscow${NORMAL}
 
 
 EOF
@@ -163,7 +160,7 @@ sudo npm install -g npm@2.15.11
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 
 # Set the Server Timezone to CST
-echo "Europe/Sofia" > /etc/timezone
+echo "Europe/Moscow" > /etc/timezone
 dpkg-reconfigure -f noninteractive tzdata
 
 # Install MySQL Server in a Non-Interactive mode. Default root password will be set from variable at beginning of script
