@@ -204,7 +204,7 @@ tar -xvf vendor.tar
 sleep 1
 
 cd /var/www/html/stalker_portal/server
-wget -O custom.ini https://raw.githubusercontent.com/SlaSerX/stalker/master/docs/configs/custom.ini
+wget -O custom.ini https://raw.githubusercontent.com/dry-spb/RapidTV/main/docs/configs/custom.ini
 cd
 
 
