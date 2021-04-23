@@ -8,10 +8,7 @@
 # your Debian/Ubuntu box. It has been designed to be as unobtrusive and
 # universal as possible.
 
-# This is a free shell script under GNU GPL version 3.0 or above
-# Copyright (C) 2017 LinuxHelps project.
-# Feedback/comment/suggestions : https://linuxhelps.net/
-# Author Ivan Bachvarov a.k.a SlaSerX
+
 
 
 #Let's Encrypt Repository
@@ -42,7 +39,7 @@ BPurple='\e[1;35m'      # Purple
 BCyan='\e[1;36m'        # Cyan
 BWhite='\e[1;37m'       # White
 
-echo -ne "${BGreen}Welcome to Ministra auto install script By SlaSerX\n
+echo -ne "${BGreen}Welcome to Ministra auto install \n
 ${BRed}Warning: This install script will remove your existing apache2 and its configuration in instead of it install nginx.${Reset}\n
 ${BWhite}Do you want continue (y/n):${Reset} ";
 read AGREE
